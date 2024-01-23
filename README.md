@@ -31,7 +31,7 @@ To run from the command line, navigate to the project directory and execute:
 ```shell
 javac --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml -d out src/main/java/com/example/*.java
 java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml -cp out com.example.App
-
+```
 Usage
 After launching the application, you can:
 
