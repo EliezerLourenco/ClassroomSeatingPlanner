@@ -32,12 +32,15 @@ To run from the command line, navigate to the project directory and execute:
 javac --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml -d out src/main/java/com/example/*.java
 java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml -cp out com.example.App
 ```
+Replace /path/to/javafx-sdk/lib with the actual path to the JavaFX SDK libraries on your machine.
+
 Usage
 After launching the application, you can:
 
 Click on a seat to select it.
 Use the color picker to choose a color.
 Enter a student's name in the text field and click 'Add student' to assign them to the selected seat.
+
 Contributing
 Contributions to this project are welcome! Please feel free to submit pull requests or create issues for any bugs you discover or enhancements you wish to propose.
 
